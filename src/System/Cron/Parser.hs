@@ -34,6 +34,7 @@ module System.Cron.Parser
 
 -------------------------------------------------------------------------------
 import           Control.Applicative        as Ap
+import           Control.Monad.Fail
 import           Data.Attoparsec.Combinator (choice)
 import           Data.Attoparsec.Text       (Parser)
 import qualified Data.Attoparsec.Text       as A
