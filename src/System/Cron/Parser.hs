@@ -41,6 +41,7 @@ import qualified Data.Attoparsec.Text       as A
 import           Data.Char                  (isSpace)
 import           Data.List.NonEmpty         (NonEmpty (..))
 import           Data.Text                  (Text, toLower)
+import           Prelude             hiding (fail)
 -------------------------------------------------------------------------------
 import           System.Cron.Types
 -------------------------------------------------------------------------------
